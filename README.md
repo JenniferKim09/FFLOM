@@ -12,7 +12,7 @@ Users can go to `./tutorials` fold to find two .ipynb file for the examples of e
 
 ## 2. Preprocess Dataset
 
-We provide zinc250k dataset / casf dataset / PDBbind dataset in `	./dataset` fold. For example:
+We provide zinc250k dataset / casf dataset / PDBbind dataset in `./dataset` fold. For example:
 
 - To preprocess zinc_test dataset for linker design task, input codes below in the cmd:  
 
@@ -43,7 +43,7 @@ We provide zinc250k dataset / casf dataset / PDBbind dataset in `	./dataset` fol
 
 ## 3. Training
 
-We provide pretrained checkpoints in `	./good_ckpt` fold.  To train your own model, use codes like: 
+We provide pretrained checkpoints in `./good_ckpt` fold.  To train your own model, use codes like: 
 
 * ```
   python train.py --path ./data_preprocessed/zinc_train/ --batch_size 32 --warm_up --epochs 300 --name xx --seed 2019 --all_save_prefix ./
