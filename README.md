@@ -2,11 +2,11 @@
 
 This is the code for the paper:  XXX
 
-Users can go to `	./tutorials` fold to find two .ipynb file for the examples of either linker design or R-group design.
+Users can go to `./tutorials` fold to find two .ipynb file for the examples of either linker design or R-group design.
 
 ## 1. Install Environment
 
-* Please create the environment using `	env.yaml` .
+* Please create the environment using `env.yaml` .
   * The main module used in this code is RDKit and torch, you can also install RDKit by `conda install -c rdkit rdkit` and install torch on the official website. 
   
 
