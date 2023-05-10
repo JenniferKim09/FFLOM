@@ -2,17 +2,17 @@
 
 - Due to the size limit, train data and the pretrained checkpoints can be download from [FFLOM | Zenodo](https://zenodo.org/record/7918738). 
 
-- Users can go to `	./tutorials` fold to find two .ipynb file for the examples of either linker design or R-group design.
+- Users can go to `./tutorials` fold to find two .ipynb file for the examples of either linker design or R-group design.
 
 ## 1. Install Environment
 
-* Please create the environment using `	env.yaml` .
+* Please create the environment using `env.yaml` .
   * The main module used in this code is RDKit and torch, you can also install RDKit by `conda install -c rdkit rdkit` and install torch on the official website. 
   
 
 ## 2. Preprocess Dataset
 
-We provide zinc250k dataset / casf dataset / PDBbind dataset in `	./dataset` fold. For example:
+We provide zinc250k dataset / casf dataset / PDBbind dataset in `./dataset` fold. For example:
 
 - To preprocess zinc_test dataset for linker design task, input codes below in the cmd:  
 
@@ -43,7 +43,7 @@ We provide zinc250k dataset / casf dataset / PDBbind dataset in `	./dataset` fol
 
 ## 3. Training
 
-We provide pretrained checkpoints in `	./good_ckpt` fold.  To train your own model, use codes like: 
+We provide pretrained checkpoints in `./good_ckpt` fold.  To train your own model, use codes like: 
 
 * ```
   python train.py --path ./data_preprocessed/zinc_train/ --batch_size 32 --warm_up --epochs 30 --name train --seed 2019 --all_save_prefix ./
