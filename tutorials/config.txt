@@ -1,0 +1,1 @@
+{'atom_list': {0: 'Br', 1: 'C', 2: 'Cl', 3: 'F', 4: 'H', 5: 'I', 6: 'N', 7: 'N', 8: 'N', 9: 'O', 10: 'O', 11: 'S', 12: 'S', 13: 'S'}, 'freedom': 0, 'node_dim': 14, 'max_size': 89, 'bond_dim': 4}

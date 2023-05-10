@@ -1,0 +1,2 @@
+CC(=O)N(C)Cc1ccc(-c2cc(O[C@H](C)[C@H]3CNC(=O)C3)c3cccnc3c2)cc1 CC(=O)N(C)[*:1] C[C@@H](Oc1cc(-c2ccc(C[*:1])cc2)cc2ncccc12)[C@H]1CNC(=O)C1
+CC(=O)N(C)Cc1ccc(-c2cc(O[C@H](C)[C@H]3CNC(=O)C3)c3cccnc3c2)cc1 CC(=O)N(C)C[*:1] C[C@@H](Oc1cc(-c2ccc([*:1])cc2)cc2ncccc12)[C@H]1CNC(=O)C1
