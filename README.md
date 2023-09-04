@@ -77,16 +77,26 @@ We provide pretrained checkpoints in `./good_ckpt` fold.  To train your own mode
 If you want to evaluate the generated molecules, using codes for linker design like:
 
 ```
-python evaluate.py --train_data dataset/linker/zinc_train.txt --gen_data ./mols/test.txt --linker_design --ref_path zinc_250k_valid_test_only.sdf
+python evaluate.py --train_data dataset/linker/zinc_train.txt --gen_data ./mols/test.txt --linker_design
 ```
 
 codes for R-group design:
 
 ```
-python evaluate.py --train_data dataset/r_group/zinc_train.txt --gen_data ./mols/test.txt --r_design --ref_path zinc_250k_valid_test_only.sdf
+python evaluate.py --train_data dataset/r_group/zinc_train.txt --gen_data ./mols/test.txt --r_design
 ```
 
+## 6. Reconstruction
 
+For recovery metrics, please check recon.py for linker case or recon_r.py for r-group case:
+
+```
+python recon.py --path ./data_preprocessed/zinc_test_linker/ --seed 66666666 --init_checkpoint ./good_ckpt/checkpoint306
+```
+
+```
+python recon_r.py --path ./data_preprocessed/zinc_test_r/ --seed 66666666 --init_checkpoint ./good_ckpt/checkpoint335
+```
 
 
 
